@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpFramework", "TcpFramework\TcpFramework.csproj", "{59C03C21-0D45-4675-9D39-3C9E8CD653AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SocketImplentaions", "SocketImplentaions", "{4DA3A963-72B9-4589-9965-EDB62541C0B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpFramework.SocketImplentaions.Raw", "TcpFramework.SocketImplentaions.Raw\TcpFramework.SocketImplentaions.Raw.csproj", "{562D49D2-A782-48A5-B26E-BF567FC03844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpFramework.SocketImplentnaions.Tcp", "TcpFramework.SocketImplentnaions.Tcp\TcpFramework.SocketImplentnaions.Tcp.csproj", "{ECF0DF63-C93B-46F2-9337-1610D3A7B20D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59C03C21-0D45-4675-9D39-3C9E8CD653AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C03C21-0D45-4675-9D39-3C9E8CD653AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C03C21-0D45-4675-9D39-3C9E8CD653AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C03C21-0D45-4675-9D39-3C9E8CD653AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562D49D2-A782-48A5-B26E-BF567FC03844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562D49D2-A782-48A5-B26E-BF567FC03844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562D49D2-A782-48A5-B26E-BF567FC03844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562D49D2-A782-48A5-B26E-BF567FC03844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF0DF63-C93B-46F2-9337-1610D3A7B20D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF0DF63-C93B-46F2-9337-1610D3A7B20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF0DF63-C93B-46F2-9337-1610D3A7B20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF0DF63-C93B-46F2-9337-1610D3A7B20D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{562D49D2-A782-48A5-B26E-BF567FC03844} = {4DA3A963-72B9-4589-9965-EDB62541C0B6}
+		{ECF0DF63-C93B-46F2-9337-1610D3A7B20D} = {4DA3A963-72B9-4589-9965-EDB62541C0B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D0A1A53-1C01-43B4-85EE-5926B4924F74}
+	EndGlobalSection
+EndGlobal
